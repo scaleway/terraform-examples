@@ -1,0 +1,64 @@
+{
+  "app_url": {
+    "sensitive": false,
+    "type": "string",
+    "value": "http://195.154.196.131"
+  },
+  "backend_port": {
+    "sensitive": false,
+    "type": "number",
+    "value": 4000
+  },
+  "bastion_ip": {
+    "sensitive": false,
+    "type": "string",
+    "value": "51.158.119.57"
+  },
+  "bastion_port": {
+    "sensitive": false,
+    "type": "number",
+    "value": 61000
+  },
+  "db_host": {
+    "sensitive": false,
+    "type": "string",
+    "value": "10.0.0.4"
+  },
+  "db_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "db_task-tracker"
+  },
+  "db_password": {
+    "sensitive": true,
+    "type": "string",
+    "value": "8Ph$w[88B$"
+  },
+  "db_port": {
+    "sensitive": false,
+    "type": "number",
+    "value": 5432
+  },
+  "db_user": {
+    "sensitive": false,
+    "type": "string",
+    "value": "usr_task-tracker"
+  },
+  "instance_ips": {
+    "sensitive": false,
+    "type": [
+      "object",
+      {
+        "0": "string"
+      }
+    ],
+    "value": {
+      "0": "10.0.0.20"
+    }
+  },
+  "registry_endpoint": {
+    "sensitive": false,
+    "type": "string",
+    "value": "rg.fr-par.scw.cloud/ns-task-tracker"
+  }
+}
