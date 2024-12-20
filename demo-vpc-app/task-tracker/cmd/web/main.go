@@ -13,7 +13,7 @@ import (
 
 	"github.com/golang-migrate/migrate/v4"
 	"github.com/golang-migrate/migrate/v4/database/postgres"
-	"github.com/scaleway/terraform-examples/internal/models"
+	"github.com/scaleway/terraform-/demo-vpc-app/internal/models"
 
 	"github.com/go-playground/form/v4"
 	_ "github.com/golang-migrate/migrate/v4/source/file"

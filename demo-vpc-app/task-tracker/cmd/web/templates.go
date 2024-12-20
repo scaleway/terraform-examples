@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/scaleway/terraform-examples/internal/models"
+	"github.com/scaleway/terraform-/demo-vpc-app/internal/models"
 )
 
 type templateData struct {

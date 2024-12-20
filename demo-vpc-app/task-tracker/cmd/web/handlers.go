@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/scaleway/terraform-examples/internal/validator"
+	"github.com/scaleway/terraform-/demo-vpc-app/internal/validator"
 )
 
 type taskForm struct {

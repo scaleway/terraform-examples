@@ -5,11 +5,9 @@ import (
 	"errors"
 	"fmt"
 	"net/http"
-	"strconv"
 	"time"
 
 	"github.com/go-playground/form/v4"
-	"github.com/julienschmidt/httprouter"
 )
 
 func (app *appConfig) serverError(w http.ResponseWriter, r *http.Request, err error) {
@@ -78,16 +76,4 @@ func (app *appConfig) decodeForm(r *http.Request, dst any) error {
 	}
 
 	return nil
-}
-
-func (app *appConfig) readIDParam(r *http.Request) (int, error) {
-	params := httprouter.ParamsFromContext(r.Context())
-
-	idStr := params.ByName("id")
-	id, err := strconv.Atoi(idStr)
-	if err != nil || id < 1 {
-		return 0, errors.New("invalid id parameter")
-	}
-
-	return id, nil
 }
