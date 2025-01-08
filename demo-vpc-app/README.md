@@ -6,7 +6,7 @@ VPC use case 1 - [Basic infrastructure to leverage VPC isolation](https://www.sc
 
 The **Task Tracker App** is a simple web application built with Go. 
 It allows users to create, view, toggle the completion status of, and delete tasks. 
-The application is containerized using Docker and deployed on a private Scaleway instance, leveraging PostgreSQL for data storage.
+The application is containerized using Docker and deployed on a private Scaleway Instance, leveraging PostgreSQL for data storage.
 All configuration and provisioning is automated using **Terraform** for infrastructure and **cloud-init** for instance configuration at boot time.
 
 ## Architecture
