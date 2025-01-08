@@ -1,6 +1,6 @@
 # Demo App
 
-VPC use case 1 - Basic infrastructure to leverage VPC isolation
+VPC use case 1 - [Basic infrastructure to leverage VPC isolation](https://www.scaleway.com/en/docs/network/vpc/reference-content/use-case-basic/).
 
 ## Overview
 
