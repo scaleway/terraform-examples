@@ -20,8 +20,8 @@ All configuration and provisioning is automated using **Terraform** for infrastr
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/task-tracker-app.git
-cd demo-app
+git clone https://github.com/scaleway/terraform-examples.git
+cd demo-vpc-app
 ```
 
 #### 2. Configure Terraform Environment
