@@ -1,11 +1,6 @@
 #cloud-config
 
 # Update and upgrade packages
-apt:
-  primary:
-    - arches: [default]
-      uri: http://us.archive.ubuntu.com/ubuntu/
-
 package_update: true
 package_upgrade: true
 
